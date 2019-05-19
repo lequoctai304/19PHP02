@@ -1,2 +1,6 @@
-html
-css
+git clone duong_dan => clone ve 1 lan duy nhat
+----
+
+git add .
+git commit -m"noi dung nop bai"
+git push origin master
