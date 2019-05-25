@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bai tap Form 2</title>
+    <link rel="stylesheet" type="text/css" href="baitapss5.css">
+    <link rel="stylesheet" type="text/css" href="reponss5.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div id="content" class="container">
+        <div id="login">
+            <form name="login" action="#" method="POST">
+                <p id="lg">
+                    LOGIN
+                </p>
+                <fieldset>
+                    <p>Username or email address*
+                        <br>
+                        <input type="text" id="tb" name="username">
+                        </br>
+                    </p>
+                    <p>Password*
+                        <br>
+                        <input type="password" id="tb" name="password">
+                        </br>
+                    </p>
+                    <p>
+                        <input type="submit" id="btlg" name="login" value="Login">
+                        <input type="checkbox" name="savepass"> Remember me
+                    </p>
+                    <p>
+                        <a href="url">Lost your password?</a>
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+        <!-- -->
+        <div id="register">
+            <form name="register" action="#" method="POST">
+                <p id="rgt">
+                    REGISTER
+                </p>
+                <fieldset>
+                    <p>Phone
+                        <br>
+                        <input type="number" id="tb" name="phone">
+                        </br>
+                    </p>
+                    <div id="fname">
+                        <label>Firstname*</label>
+                        <br>
+                        <input type="text" id="tb1" />
+                        </br>
+
+                    </div>
+                    <div id="lname">
+                        <label>Lastname* </label>
+                        <br>
+                        <input type="text" id="tb2" />
+                        </br>
+
+                    </div>
+                    <div id="div3">
+                        <p>Email address*
+                            <br>
+                            <input type="text" id="tb" name="email">
+                            </br>
+                        </p>
+                        <p>Password*
+                            <br>
+                            <input type="password" id="tb" name="pass">
+                            </br>
+                        </p>
+                        <p>
+                            <input type="submit" id="btrg" name="register" value="Register" disabled="disable">
+                        </p>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
